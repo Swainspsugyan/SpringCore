@@ -10,7 +10,7 @@
   https://www.springframework.org/schema/context/spring-context.xsd">
 
 	
-	<bean name=" emp1" class="com.spring.SpringCore02Colllection.Emp">
+	<bean name="emp1" class="com.spring.SpringCore02Colllection.Emp">
 		<property name="name" value="SP"/>
 		
 		<property name="phones">
@@ -36,7 +36,7 @@
 			<map>
 				<entry key="Java" value="2 Month "/>
 				<entry key="C" value="2 Month "/>
-				<entry key="C++" value="2 Month "/>
+				<entry key="C++ " value="2 Month "/>
 			</map>
 		
 		</property>

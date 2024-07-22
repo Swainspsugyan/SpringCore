@@ -1,4 +1,4 @@
-package com.spring.SpringCore01;
+package com.spring.sc01;
 
 public class StudentBean {
 	

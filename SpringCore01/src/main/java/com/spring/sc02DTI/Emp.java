@@ -1,4 +1,4 @@
-package com.spring.SpringCore02Colllection;
+package com.spring.sc02DTI;
 
 import java.util.*;
 
@@ -8,6 +8,8 @@ public class Emp {
 	private List<String> 			phones	;
 	private Set<String> 			address	;	
 	private Map<String, String> 	course	;
+	private Properties 				props 	;
+	
 	public String getName() {
 		return name;
 	}

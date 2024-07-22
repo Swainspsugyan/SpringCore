@@ -1,4 +1,4 @@
-package com.spring.SpringCore01;
+package com.spring.sc01;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
