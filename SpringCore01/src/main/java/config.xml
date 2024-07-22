@@ -11,20 +11,110 @@
 
 	<!-- This is our Beans by using Setter Method  -->
 	
+	<!-- 1st Method to Define -->
 	<bean class="com.spring.SpringCore01.StudentBean" name="studentBean01">
 		<property name="studentId">
-			<value>101</value>
+			<value>
+				101
+			</value>
 		</property>
 		<property name="studentName">
-			<value>SP Sugyan Swain</value>
+			<value>
+				SP Sugyan Swain
+			</value>
 		</property>
 		<property name="studentAddress">
-			<value>Kendrapara</value>
+			<value>
+				Kendrapara
+			</value>
 		</property>
-	
 	</bean>
+	
+	
+	<!-- 2nd Method to define  -->
+	<bean class="com.spring.SpringCore01.StudentBean" name="studentBean02">
+		<property name="studentId" value="101"/>
+		<property name="studentName" value="SP Sugyan Swain"/>
+		<property name="studentAddress" value="Kendrapara"/>
+	</bean>
+	<!-- 2nd Bean -->
+	<bean class="com.spring.SpringCore01.StudentBean" name="studentBean03">
+		<property name="studentId" value="102"/>
+		<property name="studentName" value="SP"/>
+		<property name="studentAddress" value="CTC"/>
+	</bean>
+	<!-- 3rd Bean -->
+	<bean class="com.spring.SpringCore01.StudentBean" name="studentBean04">
+		<property name="studentId" value="103"/>
+		<property name="studentName" value="Sugyan"/>
+		<property name="studentAddress" value="PDP"/>
+		
+	</bean>
+	<!-- 4th Bean -->
+	<bean class="com.spring.SpringCore01.StudentBean" name="studentBean05">
+		<property name="studentId" value="104"/>
+		<property name="studentName" value="Swain"/>
+		<property name="studentAddress" value="BBSR"/>
+	</bean>
+	
+	
+	<!-- By Using P Schema -->
+	 
+	<bean class="com.spring.SpringCore01.StudentBean"  name="studentBean06" p:studentId="105" p:studentName="Sipun" p:studentAddress="Kochila"  />
 
-
+	
+	
+	
+	<!--Collection Injection-->
+	<!--List Injection-->
+	<bean>
+		<property name="">
+			<list>
+				<value></value>
+				<value></value>
+				<value></value>
+				<value></value>
+				<value></value>
+			</list>
+		
+		</property>
+	</bean>
+	<!--Set Injection-->
+	<bean>
+		<property name="">
+			<set>
+				<value></value>
+				<value></value>
+				<value></value>
+				<value></value>
+				<value></value>
+			</set>
+		
+		</property>
+	</bean>
+	<!--Map Injection-->
+	<bean>
+		<property name="">
+			<map>
+				<entry key="java" value="2 Month"/>
+				<entry key="java" value="2 Month"/>
+			</map>
+		
+		</property>
+	</bean>
+	<!--Property Injection-->
+	<bean>
+		<property name="">
+			<props>
+				<prop key="name">SP</prop>
+				<prop key="name">SP</prop>
+			</props>
+		
+		</property>
+	</bean>
+	
+	
+	
 </beans>
 
   
